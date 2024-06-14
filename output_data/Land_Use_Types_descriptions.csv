@@ -1,0 +1,39 @@
+Code,Land Use,Land Use Description
+RCOM,Regional Commercial,"Regional scale retail developments, mall, office/retail combos over 100,000 sq ft"
+CCOM,Community Commercial,"Large strip shopping centers and big-box commercial, hotels, restaurant, grocery"
+NCOM,Neighborhood Commercial,Retail uses designed to meet local needs. Uses can be free standing structures.
+MIX,Mixed Use,See mixed use codes table
+OFF,Office,"Office uses - including doctor, general office, banks"
+IND,Industrial,"Manufacturing uses, plants"
+LIND,Light Industrial,"""Light"" assembly plants, or small industrial shops, grain elevator"
+WARE,Warehouse,Warehouse or distribution space
+OS,Open Space,"Golf courses, cemeteries and private conservation areas. Not parks."
+PARK,Park,"Passive or active parks, primarily publicly owned"
+PRO,Protected,Land protected by agricultural or conservation easement
+AG,Agriculture,"Any agricultural use including agricultural vacant land, crop farms or livestock farms"
+QUAR,Quarry,Active quarries
+PP,Parking,Parking lot/garage that are their own parcel
+ROW,Right of Way,Roadways and railroad easements
+WAT,Water,Water as own parcel
+HURB,Residential High Urban,Residential 20+units per acre
+LURB,Residential Low Urban,Residential 8-20 units per acre
+HSUB,Residential High Suburban,Residential 5-8 units per acre
+MSUB,Residential Mod Suburban,Residential 3-5 units per acre
+SUB,Residential Suburban,Residential  1.5-3 units per acre
+LSUB,Residential Low,Residential  0.5-2 acre lots
+RRUR,Residential Rural,Residential  2-5 acre lots
+REST,Residential Rural Estate,Residential  5 -20 acre lots
+VRES,Vacant Residential,No building and based on Auditors land use codes
+VIND,Vacant Industrial,No building and based on Auditors land use codes
+VCOM,Vacant Commercial,No building and based on Auditors land use codes
+VPUB,Vacant Public Service,No building and based on Auditors land use codes
+AIR,Airport,Airport property
+GOVT,Government,"Firehouse, police station, township hall"
+RAIL,Rail Yard,Rail yard
+HED,Higher Education,Universities and colleges
+ED,Education,Schools grades K- 12
+HOS,Hospital,"Hospital, not emergency clinics"
+REL,Religious Facility,Religious facility/church
+UTL,Utility,"Substations, water towers, utility easement"
+CORF,Correctional Facility,Prisons and jails
+NH,Nursing Home,Nursing Home (not senior apts or assisted living)
