@@ -1,0 +1,37 @@
+fields:
+  - name: OBJECTID
+    type: integer
+    constraints:
+      required: true
+  - name: ExLU21
+    type: string
+    constraints:
+      required: true
+    description: "Refer to ExLU21 values in Land_Use_Types_descriptions.csv"
+  - name: FutLU21
+    type: string
+    constraints:
+      required: true
+    description: "Refer to FutLU21 values in Land_Use_Types_descriptions.csv"
+  - name: MIXcode
+    type: string
+  - name: JoinAll
+    type: string
+  - name: Place
+    type: string
+  - name: last_edited_date
+    type: string
+  - name: County
+    type: string
+  - name: FUTsimple
+    type: string
+    description: "Refer to FUTsimple values in Land_Use_Types_descriptions.csv"
+primaryKey: 
+  - OBJECTID
+constraints:
+  ExLU21: 
+    enum: [AG, AIR, CCOM, CORF, ED, GOVT, HED, HOS, HSUB, HURB, IND, LIND, LSUB, LURB, MIX, MSUB, NCOM, NH, False, OS, PARK, PP, PRO, QUAR, RAIL, RCOM, REL, REST, ROW, RRUR, SUB, UTL, VCOM, VIND, VPUB, VRES, WARE, WAT]
+  FutLU21: 
+    enum: [AG, AIR, CCOM, CORF, ED, GOVT, HED, HOS, HSUB, HURB, IND, LIND, LSUB, LURB, MIX, MSUB, NCOM, NH, False, OS, PARK, PP, PRO, QUAR, RAIL, RCOM, REL, REST, ROW, RRUR, SUB, UTL, VCOM, VIND, VPUB, VRES, WARE, WAT]
+  FUTsimple: 
+    enum: [AG, AIR, CCOM, CORF, ED, GOVT, HED, HOS, HSUB, HURB, IND, LIND, LSUB, LURB, MIX, MSUB, NCOM, NH, False, OS, PARK, PP, PRO, QUAR, RAIL, RCOM, REL, REST, ROW, RRUR, SUB, UTL, VCOM, VIND, VPUB, VRES, WARE, WAT]

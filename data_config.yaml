@@ -1,0 +1,75 @@
+config_type: data
+config_version: 1
+title: Future Land Use Research Object Crate
+version: 2024-06-14
+description:  This data kit automates the preparation of a Research Object Crate (RO-Crate) for the Future Land Use dataset. It includes all necessary resources to produce spatial and attribute information in various formats including Shapefile, CSV, and GeoPackage.
+provider:
+  organization_name: Mid-Ohio Regional Planning Commission
+  organization_url: https://morpc.org
+  contact_name: Oliver Gwynn
+  contact_email: ogwynn@morpc.org
+outputs:
+  - resource_file_path: ./output_data/future_land_use_attributes.resource.yaml
+    title: Future Land Use Attributes CSV
+    summary: Attributes of future land use data.
+    vintage_date: 2024-06-14
+    description: Contains non-geographic attributes of the Future Land Use dataset in CSV format. This dataset includes various attributes for land use planning and analysis.
+    terms_of_use: This work is in the public domain
+    tags: land use, planning, attributes
+    credits: Data from Mid-Ohio Regional Planning Commission
+    update_frequency: Annually
+    geo_coverage: MORPC 15-County Region
+    geo_unit: Parcel
+    time_unit: 1-year period
+  - resource_file_path: ./output_data/land_use_types_descriptions.resource.yaml
+    title: Land Use Types Descriptions CSV
+    summary: Descriptions of standardized land use types.
+    vintage_date: 2024-06-14
+    description: Contains descriptions of standardized land use types in CSV format, used for land use categorization and planning.
+    terms_of_use: This work is in the public domain
+    tags: land use, planning, descriptions
+    credits: Data from Mid-Ohio Regional Planning Commission
+    update_frequency: Annually
+    geo_coverage: MORPC 15-County Region
+    geo_unit: Parcel
+    time_unit: 1-year period
+  - resource_file_path: ./output_data/mixed_use_descriptions.resource.yaml
+    title: Mixed Use Descriptions CSV
+    summary: Descriptions of mixed-use categories.
+    vintage_date: 2024-06-14
+    description: Contains descriptions of mixed-use categories in CSV format, used for mixed-use planning and analysis.
+    terms_of_use: This work is in the public domain
+    tags: land use, mixed use, planning, descriptions
+    credits: Data from Mid-Ohio Regional Planning Commission
+    update_frequency: Annually
+    geo_coverage: MORPC 15-County Region
+    geo_unit: Parcel
+    time_unit: 1-year period
+  - resource_file_path: ./output_data/future_land_use_mtp2024_filtered.resource.yaml
+    title: Future Land Use MTP 2024 Filtered Shapefile
+    summary: Filtered shapefile containing the OBJECTID and geometry fields.
+    vintage_date: 2024-06-14
+    description: Contains the filtered shapefile of the Future Land Use dataset with only OBJECTID and geometry fields, used for spatial analysis and mapping.
+    terms_of_use: This work is in the public domain
+    tags: land use, planning, shapefile
+    credits: Data from Mid-Ohio Regional Planning Commission
+    update_frequency: Annually
+    geo_coverage: MORPC 15-County Region
+    geo_unit: Parcel
+    time_unit: 1-year period
+  - resource_file_path: ./output_data/future_land_use_crated.zip
+    title: Future Land Use RO-Crate
+    summary: Research Object Crate of the Future Land Use dataset.
+    vintage_date: 2024-06-14
+    description: Contains the packaged Research Object Crate (RO-Crate) of the Future Land Use dataset, including all necessary metadata and resources for reproducible research.   
+    terms_of_use: This work is in the public domain
+    tags: land use, planning, research object crate
+    credits: Data from Mid-Ohio Regional Planning Commission
+    update_frequency: Annually
+    geo_coverage: MORPC 15-County Region
+    geo_unit: Parcel
+    time_unit: 1-year period
+processes:
+  - process_description_path: ./assets/01-prepare_future_land_use_ro_crate.ipynb
+    process_type: automatic
+    process_environment: jupyter

@@ -1,0 +1,45 @@
+Commercial sqft/acre,Plan DU/Acre,MORPC Res du/acre,Industrial sqft/acre,Office sqft/acre,Proportion of Site by Use (Include only relevant uses in the following order C/R/I/O),MixType,Description(based on various local plans)
+"Community (10,000)",-,-,-,-,,C1,"Mixed use Commercial( retial, personal services/gym/daycare/lodging)"
+"Regional (10,000)",-,-,"LIND (12,500)","OFF (40,000)",33:33:33,CIO1,Mixed Use-Regional Retail/Office/Light Industrial
+Community (10000),-,-,"LIND (12,500)","OFF (40,000)",33:33:33,CIO2,Office-Commercial-Light Industrial
+"Neighborhood(10,000)",-,-,-,"OFF (40,000)",-,CO1,Planned Office/Planned Commercial
+"Neighborhood (20,000)",-,-,-,"OFF (20,000)",30/70,CO2,MUR-3 Emerald
+"Regional (10,000)",-,-,-,"OFF (40,000)",,CO3,Easton Commercial
+"Neighborhood(10,000)",,HURB (20+),-,-,50/50,CR1,Limited Commercial and Mulit-family
+"Regional (10,000)",45+,HURB (20+),-,"OFF (40,000)",60:30:10,CRO1,Mixed Use - Regional
+Neighborhood (20000),,HURB (20+),-,"OFF (40,000)",60:30:10,CRO10,Neighborhood Mixed Use
+"Neighborhood(10,000)",,HURB (20+),-,"OFF (40,000)",20:60:20,CRO11,Urban Mixed Use
+Neighborhhod (20000),,HURB (20+),-,"OFF (40,000)",20:60:20,CRO12,Mixed Use (Neighborhood)
+"Neighborhood(10,000)",,HURB (20+),-,"OFF (40,000)",60:30:10,CRO13,Mixed Use Neighborhood Center
+"Neighborhood(10,000)",,LURB (8-20),-,"OFF (40,000)",20:60:20,CRO14,Mixed Use Village
+"Neighborhood(10,000)",,LURB (8-20),-,"OFF (40,000)",20:60:20,CRO15,Town Center
+"Neighborhood(10,000)",,LURB (8-20),-,"OFF (40,000)",20:60:20,CRO16,Neotraditional Village/Neighborhod Center
+"Neighborhood(10,000)",,HSUB,-,"OFF (40,000)",20:60:20,CRO17,Village Mixed Use
+"Neighborhood(10,000)",,HSUB(5-8),-,"OFF (40,000)",30/60/10,CRO18,Mixed_Use
+"Community (10,000)",,SUB (1.5-3),-,"OFF (40,000)",-,CRO19,"Commercial or Office, or Multi Family at 2 du/ac"
+"Regional (10,000)",,HURB (20+),-,"OFF (40,000)",20:60:20,CRO2,Regional Mixed Use
+"Neighborhood(10,000)",-,HURB (20+),-,"OFF (40,000)",50/30/20,CRO20,Mixed Use Urban Core
+"Neighborhood (20,000)",,HURB (20+),-,"OFF (40,000)",20/10/70,CRO21,MUR-1 Metro/Blazer
+"Neighborhood(10,000)",-,LURB (8-20),-,"OFF (40,000)",50/30/20,CRO22,Mixed Use Neighborhood Center
+"Regional (10,000)",,HURB,-,"OFF (40,000)",,CRO23,Easton Regional Town Center
+"Regional (10,000)",,LURB (8-20),-,"OFF (40,000)",,CRO24,Casino
+"Community (10,000)",,HURB,-,"OFF (40,000)",,CRO25,Westar
+"Regional (10,000)",,HURB (20+),-,"OFF (40,000)",60:30:10,CRO3,Mixed Use (Regional)
+"Regional (10,000)",,HURB (20+),-,"OFF (40,000)",60:30:10,CRO4,Mixed Use Regional
+"Community (10,000)",,HURB (20+),-,"OFF (40,000)",20:60:20,CRO5,Mixed Use 1
+"Community (10,000)",,HURB (20+),-,"OFF (40,000)",60:30:10,CRO6,Mixed Use 2
+"Community (10,000)",,LURB (8-20),-,"OFF (40,000)",20:60:20,CRO7,Mixed Use Community Commercial
+Commuity (12500),,LURB (8-20),-,"OFF (40,000)",20:60:20,CRO8,Mixed Use - Community
+"Community (10,000)",,LURB (8-20),-,"OFF (40,000)",60:30:10,CRO9,Transit Oriented Dev.
+-,-,-,"LIND (12,500)","OFF (20,000)",30/70,IO,Advanced Manufacturing
+-,-,-,"LIND (12,500)","OFF (40,000)",50:50,IO1,Employment Center
+-,-,-,"IND (12,500)","OFF (40,000)",70/30,IO2,Industrial and Office
+-,-,-,"LIND (12,500)","OFF (40,000)",70/30,IO2,"Office, Light Industrial"
+-,-,-,"LIND (12,500)","OFF (40,000)",30/70,IO3,Flex Office/Research & Development
+-,-,-,"LIND (12,500)","OFF (40,000)",30/20/50,IO4,Innovation Center (Office/Research/Education)
+-,-,-,"IND (12,500)","OFF (20,000)",,IO5,Westside Industrial
+-,-,-,-,"OFF (40,000)",90/10,O1,Standard Office/Institutional
+-,,HURB (20+),-,"OFF (40,000)",40/60,RO1,Office and Residential
+-,,HURB (20+),-,"OFF (40,000)",70/30,RO2,"Office, Residential"
+-,,SUB (1.5-3),-,"OFF (40,000)",-,RO3,Planned Office or Residential at 1.5 du per N.D.A.
+-,-,-,"WARE (12,500)","OFF (40,000)",50:50,WO2,"Institutional, Office, and Warehouse"

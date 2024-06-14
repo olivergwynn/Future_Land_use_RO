@@ -1,0 +1,28 @@
+name: land_use_types_descriptions
+type: table
+title: land_use_types_descriptions
+description: land_use_types_descriptions
+profile: tabular-data-resource
+path: Land_Use_Types_descriptions.csv
+scheme: file
+format: csv
+mediatype: text/csv
+encoding: utf-8
+hash: dd65de7575eda7b29fe67b13137712c6
+bytes: 2385
+schema:
+  fields:
+    - name: Code
+      type: string
+      constraints:
+        required: true
+    - name: Land Use
+      type: string
+      constraints:
+        required: true
+    - name: Land Use Description
+      type: string
+      constraints:
+        required: true
+  primaryKey:
+    - Code
