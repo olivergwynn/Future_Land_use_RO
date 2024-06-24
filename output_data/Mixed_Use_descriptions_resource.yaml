@@ -1,0 +1,35 @@
+name: mixed_use_descriptions
+type: table
+title: mixed_use_descriptions
+description: mixed_use_descriptions
+profile: tabular-data-resource
+path: Mixed_Use_descriptions.csv
+scheme: file
+format: csv
+mediatype: text/csv
+encoding: utf-8
+hash: 156f8f6d3869235a733888ade4a44615
+bytes: 3904
+schema:
+  fields:
+    - name: Commercial sqft/acre
+      type: string
+    - name: Plan DU/Acre
+      type: string
+    - name: MORPC Res du/acre
+      type: string
+    - name: Industrial sqft/acre
+      type: string
+    - name: Office sqft/acre
+      type: string
+    - name: Proportion of Site by Use (Include only relevant uses in the following
+        order C/R/I/O)
+      type: string
+    - name: MixType
+      type: string
+      constraints:
+        required: true
+    - name: Description(based on various local plans)
+      type: string
+      constraints:
+        required: true
