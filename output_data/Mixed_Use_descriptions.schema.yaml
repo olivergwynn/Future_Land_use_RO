@@ -1,0 +1,21 @@
+fields:
+  - name: Commercial sqft/acre
+    type: string
+  - name: Plan DU/Acre
+    type: string
+  - name: MORPC Res du/acre
+    type: string
+  - name: Industrial sqft/acre
+    type: string
+  - name: Office sqft/acre
+    type: string
+  - name: Proportion of Site by Use (Include only relevant uses in the following order C/R/I/O)
+    type: string
+  - name: MixType
+    type: string
+    constraints:
+      required: true
+  - name: Description(based on various local plans)
+    type: string
+    constraints:
+      required: true

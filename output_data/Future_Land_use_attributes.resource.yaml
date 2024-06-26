@@ -1,0 +1,13 @@
+name: future_land_use__attribute
+type: table
+title: future_land_use__attribute
+description: future_land_use__attribute
+profile: tabular-data-resource
+path: Future_Land_use_attributes.csv
+scheme: file
+format: csv
+mediatype: text/csv
+encoding: utf-8
+hash: d9608bf10918a7997b8067ddc22779c1
+bytes: 46387819
+schema: Future_Land_use_attributes.schema.yaml

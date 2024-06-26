@@ -1,0 +1,15 @@
+fields:
+  - name: Code
+    type: string
+    constraints:
+      required: true
+  - name: Land Use
+    type: string
+    constraints:
+      required: true
+  - name: Land Use Description
+    type: string
+    constraints:
+      required: true
+primaryKey:
+  - Code
