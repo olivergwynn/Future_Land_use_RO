@@ -1,0 +1,303 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@graph": [
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "future_land_use_RO",
+      "dateCreated": "2024-07-22T10:03:41.560475",
+      "hasPart": []
+    },
+    {
+      "@id": "future_land_use_RO.ipynb",
+      "@type": "File",
+      "name": "future_land_use_RO.ipynb",
+      "contentChecksum": [
+        {
+          "checksumAlgorithm": "MD5",
+          "checksumValue": "b230c10ba04d2970a68f9605302efcd0"
+        }
+      ]
+    },
+    {
+      "@id": "README.md",
+      "@type": "File",
+      "name": "README.md",
+      "contentChecksum": [
+        {
+          "checksumAlgorithm": "MD5",
+          "checksumValue": "551ba2342d3dec4e5bc82f2d3fd805e1"
+        }
+      ]
+    },
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "File",
+      "name": "ro-crate-metadata.json",
+      "contentChecksum": [
+        {
+          "checksumAlgorithm": "MD5",
+          "checksumValue": "9eadf541bc364a446dbcfacb5d2473f7"
+        }
+      ]
+    },
+    {
+      "@id": "input_data",
+      "@type": "Directory",
+      "name": "input_data",
+      "hasPart": [
+        {
+          "@id": "input_data\\Future_Land_use__MTP2024_parcels_Symbology.zip"
+        },
+        {
+          "@id": "input_data\\LU_Standardized LandUse Type Descriptions.xlsx"
+        }
+      ]
+    },
+    {
+      "@id": "output_data",
+      "@type": "Directory",
+      "name": "output_data",
+      "hasPart": [
+        {
+          "@id": "output_data\\Future_Land_use_attributes.csv"
+        },
+        {
+          "@id": "output_data\\Future_Land_use_attributes.resource.yaml"
+        },
+        {
+          "@id": "output_data\\Future_Land_use_attributes.schema.yaml"
+        },
+        {
+          "@id": "output_data\\Future_Land_use_attributes_resource.yaml"
+        },
+        {
+          "@id": "output_data\\Future_Land_use_attributes_schema.yaml"
+        },
+        {
+          "@id": "output_data\\Future_Land_use__MTP2024_filtered.resource.yaml"
+        },
+        {
+          "@id": "output_data\\Future_Land_use__MTP2024_filtered.zip"
+        },
+        {
+          "@id": "output_data\\Future_Land_use__MTP2024_filtered_resource.yaml"
+        },
+        {
+          "@id": "output_data\\Land_Use_Types_descriptions.csv"
+        },
+        {
+          "@id": "output_data\\Land_Use_Types_descriptions.resource.yaml"
+        },
+        {
+          "@id": "output_data\\Land_Use_Types_descriptions.schema.yaml"
+        },
+        {
+          "@id": "output_data\\Land_Use_Types_descriptions_resource.yaml"
+        },
+        {
+          "@id": "output_data\\Mixed_Use_descriptions.csv"
+        },
+        {
+          "@id": "output_data\\Mixed_Use_descriptions.resource.yaml"
+        },
+        {
+          "@id": "output_data\\Mixed_Use_descriptions.schema.yaml"
+        },
+        {
+          "@id": "output_data\\Mixed_Use_descriptions_resource.yaml"
+        }
+      ]
+    },
+    {
+      "@id": "input_data\\Future_Land_use__MTP2024_parcels_Symbology.zip",
+      "@type": "File",
+      "name": "Future_Land_use__MTP2024_parcels_Symbology.zip",
+      "contentChecksum": [
+        {
+          "checksumAlgorithm": "MD5",
+          "checksumValue": "7fb3f56bce0b2208720e818e58c35d3a"
+        }
+      ]
+    },
+    {
+      "@id": "input_data\\LU_Standardized LandUse Type Descriptions.xlsx",
+      "@type": "File",
+      "name": "LU_Standardized LandUse Type Descriptions.xlsx",
+      "contentChecksum": [
+        {
+          "checksumAlgorithm": "MD5",
+          "checksumValue": "441f8c580662a751489fc697bc76bf86"
+        }
+      ]
+    },
+    {
+      "@id": "output_data\\Future_Land_use_attributes.csv",
+      "@type": "File",
+      "name": "Future_Land_use_attributes.csv",
+      "description": "future_land_use__attribute",
+      "contentChecksum": [
+        {
+          "checksumAlgorithm": "MD5",
+          "checksumValue": "d9608bf10918a7997b8067ddc22779c1"
+        }
+      ],
+      "isDescribedBy": {
+        "@id": "output_data\\Future_Land_use_attributes.resource.yaml"
+      }
+    },
+    {
+      "@id": "output_data\\Future_Land_use_attributes.resource.yaml",
+      "@type": "File",
+      "name": "Future_Land_use_attributes.resource.yaml"
+    },
+    {
+      "@id": "output_data\\Future_Land_use_attributes.schema.yaml",
+      "@type": "File",
+      "name": "Future_Land_use_attributes.schema.yaml",
+      "contentChecksum": [
+        {
+          "checksumAlgorithm": "MD5",
+          "checksumValue": "b6b3e4698464d5fb3af3d4d9a7cd67d9"
+        }
+      ]
+    },
+    {
+      "@id": "output_data\\Future_Land_use_attributes_resource.yaml",
+      "@type": "File",
+      "name": "Future_Land_use_attributes_resource.yaml",
+      "contentChecksum": [
+        {
+          "checksumAlgorithm": "MD5",
+          "checksumValue": "f814eeeae4c8cd5d613fc2bc48a8a99d"
+        }
+      ]
+    },
+    {
+      "@id": "output_data\\Future_Land_use_attributes_schema.yaml",
+      "@type": "File",
+      "name": "Future_Land_use_attributes_schema.yaml",
+      "contentChecksum": [
+        {
+          "checksumAlgorithm": "MD5",
+          "checksumValue": "b6b3e4698464d5fb3af3d4d9a7cd67d9"
+        }
+      ]
+    },
+    {
+      "@id": "output_data\\Future_Land_use__MTP2024_filtered.resource.yaml",
+      "@type": "File",
+      "name": "Future_Land_use__MTP2024_filtered.resource.yaml"
+    },
+    {
+      "@id": "output_data\\Future_Land_use__MTP2024_filtered.zip",
+      "@type": "File",
+      "name": "Future_Land_use__MTP2024_filtered.zip",
+      "description": "Filtered shapefile containing the OBJECTID and geometry fields.",
+      "contentChecksum": [
+        {
+          "checksumAlgorithm": "MD5",
+          "checksumValue": "7aac98cf0f108cecf574ee7b9a658564"
+        }
+      ],
+      "isDescribedBy": {
+        "@id": "output_data\\Future_Land_use__MTP2024_filtered.resource.yaml"
+      }
+    },
+    {
+      "@id": "output_data\\Future_Land_use__MTP2024_filtered_resource.yaml",
+      "@type": "File",
+      "name": "Future_Land_use__MTP2024_filtered_resource.yaml",
+      "contentChecksum": [
+        {
+          "checksumAlgorithm": "MD5",
+          "checksumValue": "02e39fb77faa60563eea90a745ec21d7"
+        }
+      ]
+    },
+    {
+      "@id": "output_data\\Land_Use_Types_descriptions.csv",
+      "@type": "File",
+      "name": "Land_Use_Types_descriptions.csv",
+      "description": "land_use_types_descriptions",
+      "contentChecksum": [
+        {
+          "checksumAlgorithm": "MD5",
+          "checksumValue": "dd65de7575eda7b29fe67b13137712c6"
+        }
+      ],
+      "isDescribedBy": {
+        "@id": "output_data\\Land_Use_Types_descriptions.resource.yaml"
+      }
+    },
+    {
+      "@id": "output_data\\Land_Use_Types_descriptions.resource.yaml",
+      "@type": "File",
+      "name": "Land_Use_Types_descriptions.resource.yaml"
+    },
+    {
+      "@id": "output_data\\Land_Use_Types_descriptions.schema.yaml",
+      "@type": "File",
+      "name": "Land_Use_Types_descriptions.schema.yaml",
+      "contentChecksum": [
+        {
+          "checksumAlgorithm": "MD5",
+          "checksumValue": "05d2970fc3af778ae02e38fcef21736b"
+        }
+      ]
+    },
+    {
+      "@id": "output_data\\Land_Use_Types_descriptions_resource.yaml",
+      "@type": "File",
+      "name": "Land_Use_Types_descriptions_resource.yaml",
+      "contentChecksum": [
+        {
+          "checksumAlgorithm": "MD5",
+          "checksumValue": "b41f4a9559c4f387c56705583479172f"
+        }
+      ]
+    },
+    {
+      "@id": "output_data\\Mixed_Use_descriptions.csv",
+      "@type": "File",
+      "name": "Mixed_Use_descriptions.csv",
+      "description": "mixed_use_descriptions",
+      "contentChecksum": [
+        {
+          "checksumAlgorithm": "MD5",
+          "checksumValue": "156f8f6d3869235a733888ade4a44615"
+        }
+      ],
+      "isDescribedBy": {
+        "@id": "output_data\\Mixed_Use_descriptions.resource.yaml"
+      }
+    },
+    {
+      "@id": "output_data\\Mixed_Use_descriptions.resource.yaml",
+      "@type": "File",
+      "name": "Mixed_Use_descriptions.resource.yaml"
+    },
+    {
+      "@id": "output_data\\Mixed_Use_descriptions.schema.yaml",
+      "@type": "File",
+      "name": "Mixed_Use_descriptions.schema.yaml",
+      "contentChecksum": [
+        {
+          "checksumAlgorithm": "MD5",
+          "checksumValue": "09b710641ec06516fb1d48192d38b11f"
+        }
+      ]
+    },
+    {
+      "@id": "output_data\\Mixed_Use_descriptions_resource.yaml",
+      "@type": "File",
+      "name": "Mixed_Use_descriptions_resource.yaml",
+      "contentChecksum": [
+        {
+          "checksumAlgorithm": "MD5",
+          "checksumValue": "66db4e51662b40d8fdd09139463572da"
+        }
+      ]
+    }
+  ]
+}
